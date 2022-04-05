@@ -35,82 +35,103 @@ function App() {
         <h2>These are some of my projects</h2>
         <div className="work-div">
           <div className="work-div-div">
-            <h3 className="work-div-div-h3">Pomodoro Clock</h3>
-            <a href="https://codepen.io/xiaohang1992/full/qBVoXpO" target="_blank" rel="noopener noreferrer">
-              <img className="work-img" src="/images/Pomodoro-Clock.png" alt="" />
+            <h3 className="work-div-div-h3">E-commerce</h3>
+            <a href="https://e-cormmerce-lama.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img className="work-img" src="/images/e-commerce.png" alt="" />
             </a>
-            <a className="work-div-div-code" href="https://codepen.io/xiaohang1992/pen/qBVoXpO" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
+            <a className="work-div-div-code" href="https://github.com/xiaohang92/e-commerce" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
           </div>
           <p>
-            Pomodoro Clock is to help people focus on any task by working in 25 minutes and break for 5 minutes.
+            An e-commerce website built with React js. It separated to 9 components.
             <br />
             <br />
-            The project is build by using react useState, useEffect and useRef.
+            Then combine to be 6 pages which are build by styled-components and react-router-dom.
             <br />
             <br />
-            One of the difficulty is to set the break begin once the session countdown reach zero and vice versa.
+            There is 2 right and left button of the page can slide to next page.
+            <br />
+            <br />
+            The website can click on Button like LAMA (logo), Register, and so on then link to the pages mentioned.
           </p>
         </div>
 
         <div className="work-div">
           <div className="work-div-div">
-            <h3 className="work-div-div-h3">JavaScript Calculator</h3>
-            <a href="https://codepen.io/xiaohang1992/full/vYWpgOE" target="_blank" rel="noopener noreferrer">
-              <img className="work-img" src="/images/JavaScript-Calculator.png" alt="" />
+            <h3 className="work-div-div-h3">Brochure</h3>
+            <a href="https://phama.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img className="work-img" src="/images/Brochure.png" alt="" />
             </a>
-            <a className="work-div-div-code" href="https://codepen.io/xiaohang1992/pen/vYWpgOE" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
+            <a className="work-div-div-code" href="https://github.com/xiaohang92/Brochure" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
           </div>
           <p>
-            JavaScript Calculator is a simple calculator that include plenty of condition.
+            A brochure website built with React js.
             <br />
             <br />
-            One of the difficulty is decimal should not display in invalid condition.
+            It promoting Pharmacy Vending Machine.
             <br />
             <br />
-            After research, it solved by using regular expression and test() method.
+            The website have button function such as Introduce, Advantage, Contact which will scroll to the section when click.
           </p>
         </div>
 
         <div className="work-div">
           <div className="work-div-div">
-            <h3 className="work-div-div-h3">Drum Machine</h3>
-            <a href="https://codepen.io/xiaohang1992/full/VwrryVd" target="_blank" rel="noopener noreferrer">
-              <img className="work-img" src="/images/Drum-Machine.png" alt="" />
+            <h3 className="work-div-div-h3">To Do List</h3>
+            <a href="https://to-do-list-weihang.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img className="work-img" src="/images/to-do-list.png" alt="" />
             </a>
-            <a className="work-div-div-code" href="https://codepen.io/xiaohang1992/pen/VwrryVd" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
+            <a className="work-div-div-code" href="https://github.com/xiaohang92/To-Do-List" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
           </div>
           <p>
-            Drum Machine is a simple virtual drum that able to record and replay the notes.
+            A To Do List built with JavaScript.
             <br />
             <br />
-            It also able to adjust the volume and speed of the audio.
-            <br />
-            <br />
-            This project build by react useState and bootstrap.
+            It able to add task, mark completed, and delete task.
+
           </p>
         </div>
 
         <div className="work-div">
           <div className="work-div-div">
-            <h3 className="work-div-div-h3">MarkDown Previewer</h3>
-            <a href="https://codepen.io/xiaohang1992/full/PoOKpyq" target="_blank" rel="noopener noreferrer">
-              <img className="work-img" src="/images/MarkDown-Previewer.png" alt="" />
+            <h3 className="work-div-div-h3">QR Code Generator</h3>
+            <a href="https://qr-code-generator-wh.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img className="work-img" src="/images/QR-Code.png" alt="" />
             </a>
-            <a className="work-div-div-code" href="https://codepen.io/xiaohang1992/pen/PoOKpyq" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
+            <a className="work-div-div-code" href="https://github.com/xiaohang92/QR-code" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
           </div>
           <p>
-            My Markdown Previewer is a online editor able to add formatting like headers, bold, picture and etc by using plain text.
+            A QR Code Generator built with React js.
             <br />
             <br />
-            This project is build by function, class components(react) and markdown parser built by cdnjs.
+            This webpage can generate qr code with written URL or sentence.
             <br />
             <br />
-            The difficulty of this project is the need to understand markdown parser.
+            User can change the color of QR code and download it as png file.
+          </p>
+        </div>
+
+        <div className="work-div">
+          <div className="work-div-div">
+            <h3 className="work-div-div-h3">API Quiz</h3>
+            <a href="https://quiz-app-10-question.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img className="work-img" src="/images/Quiz.png" alt="" />
+            </a>
+            <a className="work-div-div-code" href="https://github.com/xiaohang92/quiz" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
+          </div>
+          <p>
+            A simple quiz built with React js.
+            <br />
+            <br />
+            This webpage can fetch API to load 10 question. API provided by https://opentdb.com/
+            <br />
+            <br />
+            If user answer correct, the button will change to green color, while change red if incorrect but can try again.
+
           </p>
         </div>
 
         <div className="work-more-project">
-          <a href="https://codepen.io/your-work/" target="_blank" rel="noopener noreferrer">More Projects . . .</a>
+          <a href="https://codepen.io/xiaohang1992" target="_blank" rel="noopener noreferrer">More Projects In Codepen</a>
         </div>
       </section>
 
@@ -121,22 +142,26 @@ function App() {
         </div>
         <div className="contact-div-div">
           <a className="contact-button" id="profile-link" href="https://github.com/xiaohang92" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i> Github</a>
-          <span className="contact-button" onClick={handleClick} ><i class="fa fa-envelope icon"></i> Send me a email</span>
-          <span className="contact-button" onClick={onClick} ><i class="fa fa-phone"></i> Call me</span>
+          <div className="contact-div-email">
+            <span className="contact-button" onClick={handleClick} ><i class="fa fa-envelope icon"></i> Send me a email</span>
 
-          {displayEmail ?
-            <div>
-              <span>Email : hang_cw@hotmail.com</span>
-            </div>
-            : null
-          }
+            {displayEmail ?
+              <div>
+                <span>Email : hang_cw@hotmail.com</span>
+              </div>
+              : null
+            }
+          </div>
+          <div className="contact-div-mobile">
+            <span className="contact-button" onClick={onClick} ><i class="fa fa-phone"></i> Call me</span>
 
-          {displayMobile ?
-            <div id="mobile">
-              <span>Mobile : 012-526-1536</span>
-            </div>
-            : null
-          }
+            {displayMobile ?
+              <div id="mobile">
+                <span>Mobile : 012-526-1536</span>
+              </div>
+              : null
+            }
+          </div>
         </div>
 
       </section>
