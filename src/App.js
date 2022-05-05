@@ -93,20 +93,17 @@ function App() {
 
         <div className="work-div">
           <div className="work-div-div">
-            <h3 className="work-div-div-h3">QR Code Generator</h3>
-            <a href="https://qr-code-generator-wh.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <img className="work-img" src="/images/QR-Code.png" alt="" />
+            <h3 className="work-div-div-h3">Pokemon Search</h3>
+            <a href="https://pokemon-search-page.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img className="work-img" src="/images/pokemon.png" alt="" />
             </a>
-            <a className="work-div-div-code" href="https://github.com/xiaohang92/QR-code" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
+            <a className="work-div-div-code" href="https://github.com/xiaohang92/pokemon" target="_blank" rel="noopener noreferrer"><span>Code</span></a>
           </div>
           <p>
-            A QR Code Generator built with React js.
+            The Search Pokemon website built with React Material UI(MUI) and using axios to call API from https://pokeapi.co/.
             <br />
             <br />
-            This webpage can generate qr code with written URL or sentence.
-            <br />
-            <br />
-            User can change the color of QR code and download it as png file.
+            There is Autocomplete components and DataGrid components for user convenient to search their favorite pokemon.
           </p>
         </div>
 
